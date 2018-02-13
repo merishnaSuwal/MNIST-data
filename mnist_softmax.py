@@ -27,7 +27,7 @@ cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y_
 
 # Optimizer(Gradient descent)
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.5)
-train = optimizer..minimize(cross_entropy)
+train = optimizer.minimize(cross_entropy)
 
 # Create session and run
 
@@ -37,6 +37,13 @@ init = tf.global_variables_initializer()
 with tf.Session() as sess:
     sess.run(init)
 
-    for x in range(1000):
+    for i in range(1000):
         batch_x, batch_y = mnist.train.next_batch(100)
         sess.run(train, feed_dict={x:batch_x, y_true:batch_y})
+
+    # Test the Train Model
+    matches = tf.equal(tf.argmax(y, 1), tf.argmax(y_true, 1))
+
+    acc = tf.reduce_mean(tf.cast(matches, tf.float32)) #cast the boolean values between 0 or 1
+
+    print(sess.run(acc, feed_dict={x: mnist.test.images, y_true: mnist.test.labels})) #prints accuracy of the model
