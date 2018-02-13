@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae33b9ca-4efa-4981-b6f2-ac83fcee7cc3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/mnist_softmax.py" afterPath="$PROJECT_DIR$/mnist_softmax.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mnist_softmax.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mnist_softmax.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnist_softmax.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -21,6 +21,16 @@
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,6 +60,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mnist_softmax.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -185,6 +196,14 @@
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
