@@ -1,6 +1,6 @@
 # MNIST-data
-
-##Softmax Approach
+> Working with MNIST data set
+## Softmax Approach
 - Read data set
 - Define placeholders
 - Define variable
