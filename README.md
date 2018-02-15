@@ -1,5 +1,5 @@
 # MNIST-data
-> Working with MNIST data set
+> Working with MNIST data set of Handwritten digits
 ## Softmax method
 - Read data set
 - Define placeholders
