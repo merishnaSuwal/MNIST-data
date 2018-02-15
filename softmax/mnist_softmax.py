@@ -42,7 +42,7 @@ with tf.Session() as sess:
         batch_x, batch_y = mnist.train.next_batch(100)
         sess.run(train, feed_dict={x:batch_x, y_true:batch_y})
 
-    # Test the Train Model
+    # Testing the Train Model
     matches = tf.equal(tf.argmax(y, 1), tf.argmax(y_true, 1))
 
     acc = tf.reduce_mean(tf.cast(matches, tf.float32)) #cast the boolean values between 0 or 1
